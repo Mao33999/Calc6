@@ -50,7 +50,7 @@ public class Calcuator {
         static String[] romanArray = new String[]{"0", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX",
                 "X", "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX", "XXI", "XXII", "XXIII", "XXIV", "XXV", "XXVI",
                 "XXVII", "XXVIII", "XXX", "XXXII", "XXXV", "XXXVI", "XL", "XLII", "XLV", "XLVIII", "XLIX", "L", "LIV", "LVI", "LX", "LXIII",
-                "LXXX", "LXXXI", "XC", "C"};
+                "LXXII", "LXXX", "LXXXI", "XC", "C"};
 
         public static boolean isRoman(String str) {
             for (int i = 0; i < romanArray.length; i++) {
